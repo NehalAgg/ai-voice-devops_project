@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install fastapi uvicorn scikit-learn pandas numpy
+RUN pip install -r requirements.txt
 
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
