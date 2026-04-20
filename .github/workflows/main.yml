@@ -18,8 +18,8 @@ jobs:
         python-version: 3.11
 
     - name: Install dependencies
-      run: |
+      run: | 
         pip install -r requirements.txt
-
+      
     - name: Test app
       run: echo "Build successful"
