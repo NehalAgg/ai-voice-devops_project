@@ -19,7 +19,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install fastapi uvicorn scikit-learn pandas numpy
+        pip install -r requirements.txt
 
     - name: Test app
       run: echo "Build successful"
